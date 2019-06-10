@@ -1,0 +1,9 @@
+#CP 4.14
+push!(myEdges, Edge(1,2,9))
+push!(myEdges, Edge(1,3,75))
+push!(myEdges, Edge(2,3,95))
+push!(myEdges, Edge(2,4,19))
+push!(myEdges, Edge(2,5,42))
+push!(myEdges, Edge(3,4,51))
+push!(myEdges, Edge(4,5,31))
+myGraph=Graph(5,length(myEdges), myEdges)

@@ -1,0 +1,12 @@
+#K5
+push!(myEdges, Edge(1,2,24))
+push!(myEdges, Edge(1,3,13))
+push!(myEdges, Edge(1,4,13))
+push!(myEdges, Edge(1,5,22))
+push!(myEdges, Edge(2,3,22))
+push!(myEdges, Edge(2,4,13))
+push!(myEdges, Edge(2,5,13))
+push!(myEdges, Edge(3,4,19))
+push!(myEdges, Edge(3,5,14))
+push!(myEdges, Edge(4,5,19))
+myGraph=Graph(5,length(myEdges), myEdges)
